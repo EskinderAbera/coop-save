@@ -1,3 +1,4 @@
+import Challenge from "@/components/challenges";
 import SavingsChallengeLanding from "@/components/landing-component";
 import { createFileRoute } from "@tanstack/react-router";
 
@@ -6,5 +7,6 @@ export const Route = createFileRoute("/")({
 });
 
 function RouteComponent() {
-  return <SavingsChallengeLanding />;
+  // return <SavingsChallengeLanding />;
+  return <Challenge />;
 }
